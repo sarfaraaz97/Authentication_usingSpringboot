@@ -22,7 +22,7 @@ This project implements user authentication using **Spring Boot** for the backen
 
 ### Frontend:
 - **TypeScript**
-- **React.js / Angular / Vue.js** (Specify the actual framework used)
+- **React.js**
 
 ## Installation & Setup
 
@@ -61,8 +61,8 @@ This project implements user authentication using **Spring Boot** for the backen
 
 | Method | Endpoint           | Description          |
 |--------|-------------------|----------------------|
-| `POST` | `/auth/register`  | Register new user   |
-| `POST` | `/auth/login`     | User login (JWT)    |
+| `POST` | `/register`       | Register new user   |
+| `POST` | `/login`          | User login (JWT)    |
 | `GET`  | `/user/profile`   | Get user details    |
 
 ## Security Measures
@@ -78,6 +78,4 @@ This project implements user authentication using **Spring Boot** for the backen
 ## Contributing
 Feel free to contribute by submitting **pull requests** or opening **issues**.
 
-## License
-This project is open-source and available under the **MIT License**.
 
